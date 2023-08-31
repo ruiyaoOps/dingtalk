@@ -247,8 +247,8 @@ func (d *dingMap) formatVal(val string, t MarkType) (res string) {
 	} else {
 		res = val
 	}
-	if !strings.HasPrefix(res, "- ") && !strings.HasPrefix(res, "#") {
-		res = "- " + res
-	}
+	// if !strings.HasPrefix(res, "- ") && !strings.HasPrefix(res, "#") {
+	// 	res = "- " + res
+	// }
 	return
 }
